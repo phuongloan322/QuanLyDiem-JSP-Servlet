@@ -1,0 +1,27 @@
+body { 
+    background: url("/img/Login_bg_lg.png");
+    padding-top:30px; 
+    width: 80%;
+    margin: 5% 35% !important;
+}
+
+.form-control, .form { margin-bottom: 15px; }
+legend img {
+    margin-bottom: 5px;
+}
+legend{
+    margin-bottom: 25px;
+}
+.signup .logo_k_nen {
+    position: absolute;
+    left: 13%;
+}
+.signup .dnhap {
+   display: flex;
+   justify-content: center;
+}
+.error {
+	color: red;
+	font-size: 11px;
+    margin: -5px 0 15px 3px;
+}

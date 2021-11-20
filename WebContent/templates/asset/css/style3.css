@@ -1,0 +1,142 @@
+
+.mail, ::placeholder{
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.mail{
+    width: 450px;
+    height: 460px;
+    box-shadow: 0 1px 5px #737475;
+    margin: 10% 0 0 35%; 
+    /* margin: 5% 0 0 25%; */
+    border-radius: 8px 8px 0 0;
+    padding:0;
+}
+
+.mail-title {
+    background-color: #202124;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.mail-title img {
+    width: 12px;
+    padding: 5px;
+}
+.mail-title img:hover {
+    background-color: rgb(82, 80, 80);
+}
+.mail-title .td2-right {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    margin: 5px;    
+}
+.mail-title td div {
+    display: inline;
+}
+.amil textarea, input {
+    height: 15px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.mail-content {
+    width: 100%;
+    position: relative;
+}
+.to-mail .den{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    height: 40px;
+    color: #777;
+    border-bottom: 1px solid #ccc;
+    width: 95%;
+    box-sizing: border-box;
+    margin: 0 12px;
+}
+.to-mail .den div {
+    /* display: inline-flex; */
+    display: inline;
+}
+.to-mail .den textarea,.den input {
+    min-width: 80%;
+    padding-top: 12px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.to-mail .den a {
+    text-decoration: none;
+    color: #777;
+}
+.to-mail .den a:hover {
+    text-decoration: underline;
+}
+
+.to-mail .nguoinhan {
+    visibility: none;
+}
+.to-mail .nguoinhan, .from-mail{
+    box-sizing: border-box;
+    width: 95%;
+    height: 40px;
+    text-decoration: none;
+    color: #777;
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0 12px;
+}
+.from-mail input {
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.noidung textarea {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+}
+.send-mail {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 0 15px 14px;
+}
+.send-mail .vien {
+    border-radius: 4px;
+}
+.send-mail div {
+    display: inline-block;
+    border: 1px solid #1a73e8;
+    background-color: #1a73e8;
+    color: #fff;
+    line-height: 30px;
+}
+.send-mail button {
+    background-color: #1a73e8;
+    border: none;
+    width: 70px;
+}
+.send-mail .btn button {
+    border-right: 1px solid #2c68b8;
+    height: 30px;
+    color: #fff;
+    font-weight: 550;
+    letter-spacing: .25px;
+    font-family: 'Google Sans', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.send-mail .icon {
+    padding: 0 5px 0 3px;
+}
+.send-mail .vien:hover{
+    box-shadow: 0 0 2px 1px #72a7ec;
+}

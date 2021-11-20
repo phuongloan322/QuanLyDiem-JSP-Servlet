@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/templates/asset/css/style1.css=UTF-8
+encoding//WebContent/templates/asset/css/style2.css=UTF-8
+encoding//WebContent/views/login.jsp=UTF-8
+encoding//WebContent/views/signup.jsp=UTF-8
+encoding//src/controllers/InScoreController.java=UTF-8
+encoding//src/controllers/LoginController.java=UTF-8
+encoding//src/controllers/SignupController.java=UTF-8
+encoding//src/controllers/SinhVienController.java=UTF-8
+encoding//src/daos/theloaiDao.java=UTF-8
+encoding//src/utils/DBConnection.java=UTF-8

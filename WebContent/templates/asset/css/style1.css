@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(0, 110, 183) ;
+   /*  background: url("<%=request.getContextPath()%>/templates/asset/img/Login_bg_lg.png"); */
+    /* repeat-x center center; */
+    min-width: 800px;
+    width: 100%;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.signin {
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: 20%;
+}
+.col1 {
+    width: 70%;
+    text-align: center;
+    margin-top: 6%;
+}
+.col2 {
+    width: 25%;
+    margin-left: 5%;
+}
+.col1 .logo {
+    margin-bottom: 70px;
+}
+.form-signin {
+    width: 320px;
+    background: #fff;
+    height: 350px;
+    border: 5px solid #6bb9f0;
+    margin-top: 205px;
+    padding: 15px;
+    position: relative;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+button {
+    margin: 10px 0 15px 0;
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    color: #fff;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #2e6da4;
+}
+.form-group input, button{
+    width: 100%;
+    border-radius: 4px;
+    height: 38px;
+    border: 1px solid #ddd;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input::placeholder {
+    font-size: 14px;
+}
+input:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+  }
+  .form-signin h2 {
+    font-family: Calibri;
+    font-size: 25px;
+    color: #006eb7;
+    margin-bottom: 20px;
+    font-weight: 200;
+  }
+  .form-signin img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: 20px;
+  }
+  footer {
+      text-align: center;
+      color: #fff;
+  }
+  footer a {
+      text-decoration: none;
+      color: #fff;
+  }
+  footer a:hover {
+      color: #fff;
+      text-decoration: underline;
+  }
+
+  @media screen and (max-width: 800px) {
+    .col1 {
+      display: none;
+    }
+    .col2 {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        margin-left: -10%;
+    }
+    footer {
+        margin-left: -30%;
+    }
+}
+	.error {
+	color: red;
+	}
+	.signin .dki {
+	text-decoration: none;
+	display: flex;
+  	justify-content: center;
+  	margin-bottom: 20px;
+	}

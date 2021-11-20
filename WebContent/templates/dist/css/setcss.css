@@ -1,0 +1,30 @@
+
+.edit input {
+	border: none;
+	background: none;
+	width:100px;
+}
+.edit input:focus {
+	outline: 0;
+}
+.btn-edit {
+	margin-right:10px;
+}
+.btn-edit:hover {
+	background-color: #5ea2e6;
+	color:#fff;
+	border: 2px solid #5ea2e6;
+} 
+.btn-delete:hover {
+	background-color: #fd5b67;
+	color:#fff;
+	border: 2px solid #fd5b67;
+}
+.nhapdiem {
+	color:#004080;
+	font-family: system-ui;
+    margin-left: 60px !important;
+}
+.nhap {
+	margin-top: 0 !important;
+}

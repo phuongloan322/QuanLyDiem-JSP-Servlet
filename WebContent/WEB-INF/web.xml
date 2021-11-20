@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<display-name>test</display-name>
+	<welcome-file-list>
+		<welcome-file>index1.html</welcome-file>
+		<welcome-file>index1.htm</welcome-file>
+		<welcome-file>index1.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>controllers.LoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>HomeController</servlet-name>
+		<servlet-class>controllers.HomeController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeController</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MailController</servlet-name>
+		<servlet-class>controllers.MailController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MailController</servlet-name>
+		<url-pattern>/mail</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SignupController</servlet-name>
+		<servlet-class>controllers.SignupController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignupController</servlet-name>
+		<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DiemController</servlet-name>
+		<servlet-class>controllers.DiemController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DiemController</servlet-name>
+		<url-pattern>/quanlydiem</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>HocKyController</servlet-name>
+		<servlet-class>controllers.HocKyController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HocKyController</servlet-name>
+		<url-pattern>/hocky</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>KhoaController</servlet-name>
+		<servlet-class>controllers.KhoaController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KhoaController</servlet-name>
+		<url-pattern>/khoa</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LopController</servlet-name>
+		<servlet-class>controllers.LopController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LopController</servlet-name>
+		<url-pattern>/lop</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NamHocController</servlet-name>
+		<servlet-class>controllers.NamHocController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NamHocController</servlet-name>
+		<url-pattern>/namhoc</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NienKhoaController</servlet-name>
+		<servlet-class>controllers.NienKhoaController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NienKhoaController</servlet-name>
+		<url-pattern>/nienkhoa</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TinChiController</servlet-name>
+		<servlet-class>controllers.TinChiController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TinChiController</servlet-name>
+		<url-pattern>/tinchi</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TheLoaiController</servlet-name>
+		<servlet-class>controllers.TheLoaiController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TheLoaiController</servlet-name>
+		<url-pattern>/theloai</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MonHocController</servlet-name>
+		<servlet-class>controllers.MonHocController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MonHocController</servlet-name>
+		<url-pattern>/monhoc</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SinhVienController</servlet-name>
+		<servlet-class>controllers.SinhVienController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SinhVienController</servlet-name>
+		<url-pattern>/sinhvien</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GiangVienController</servlet-name>
+		<servlet-class>controllers.GiangVienController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GiangVienController</servlet-name>
+		<url-pattern>/giangvien</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>InScoreController</servlet-name>
+		<servlet-class>controllers.InScoreController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InScoreController</servlet-name>
+		<url-pattern>/inScore</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TestController</servlet-name>
+		<servlet-class>controllers.TestController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestController</servlet-name>
+		<url-pattern>/inScore</url-pattern>
+	</servlet-mapping>
+</web-app>
